@@ -8,12 +8,14 @@ function App() {
     <Router basename="/">
       <Switch>
         <Route path="*">
-          <div className="App">
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <p>Fridsj.no kommer snart.</p>
-            </header>
-          </div>
+          <div className="placeholder">
+            <img src={logo} className="logo" alt="logo" />
+            <div className="content">
+              <h1>Fridsj</h1>
+              <hr></hr>
+              <p>Kommer snart.</p>
+            </div>
+          </div>        
         </Route>
       </Switch>
     </Router>
